@@ -1,0 +1,25 @@
+Aronium
+
+Main Street 1
+
+90210 Weldone
+
+Tax No.: 123456789
++1234 567 890
+office@aronium.com
+
+Receipt No.: 17-200-000056
+25.11.2017. 18:33:34
+MieersoonDoe,
+Coca cola
+9x $180.00 (-10%) $1,458.00 A
+Pepsi
+126% $2000 ¢$50.00) $2,510.00
+Items count: 2
+Cart discount (50%): “$1,984.00
+Subtotal $1,923.81
+Tax 9.00%: $60.19
+TOTAL: $1,984.00
+Cash: $1,984.00
+Paid amount: $1,984.00
+Change: $0.00

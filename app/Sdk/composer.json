@@ -1,0 +1,6 @@
+{
+	
+    "require": {
+        "gufy/pdftohtml-php": "^2.0"
+    }
+}

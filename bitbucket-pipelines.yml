@@ -1,0 +1,21 @@
+image: docker:stable
+
+options:
+  docker: true  # Enable Docker-in-Docker (DIND)
+
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Build and Push Docker Image
+          script:
+            - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+            - docker build -t ahmad4433/docker-laravel-tst:${BITBUCKET_COMMIT} .
+            - docker push ahmad4433/docker-laravel-tst:${BITBUCKET_COMMIT}
+      - step:
+          name: Deploy to Production
+          deployment: production
+          trigger: manual
+          script:
+            - echo "Deploying to production..."
+            # Add your deployment commands here
